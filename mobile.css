@@ -21,10 +21,10 @@
 }
 
 .postprofile:hover img {
-  border: 2px solid ;
+  border: 2px solid rgb(31, 6, 31);
 }
 
-.languages li{
+.languages li {
   background-color: rgb(218, 218, 218);
   color: #6070ff;
   font-weight: 500, medium;
@@ -75,7 +75,7 @@
 .aboutbutton:hover {
   border: none;
   color: white;
-  background-color:#396df2;
+  background-color: #396df2;
   cursor: pointer;
 }
 
