@@ -7,8 +7,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body{
-  background-color: #e5e5e5
+body {
+  background-color: #e5e5e5;
 }
 
 a {
@@ -64,21 +64,22 @@ section > * {
   padding-top: 15px;
 }
 
-.setup ul, .contactapp {
-  gap: 12px;
-  align-items: center;
-}
-
 ul {
   display: flex;
   list-style: none;
+}
+
+.setup ul,
+.contactapp {
+  gap: 12px;
+  align-items: center;
 }
 
 li {
   cursor: pointer;
 }
 
-#connect {
+.connected {
   color: #7f8cff;
   cursor: pointer;
 }
