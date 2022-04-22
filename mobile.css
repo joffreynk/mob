@@ -1,0 +1,97 @@
+.works {
+    display: grid;
+    width: 330px;
+    gap: 50px;
+}
+
+.post {
+    display: flex;
+    padding: 16px;
+    gap: 12px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.post:hover {
+    /* width: 330px; */
+    border: 3px solid rgb(65, 23, 65);
+}
+
+.postprofile img {
+    width: 295px;
+}
+
+.postprofile:hover img {
+    border: 2px solid ;
+}
+
+.postcontent {
+    display: grid;
+    column-gap: 24px;
+}
+
+.postcontent ul li {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 12px;
+    margin-top: 15px;
+}
+
+.postcontent p {
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.languages li{
+    background-color: rgb(218, 218, 218);
+    color: #6070ff;
+    font-weight: 500, medium;
+    padding: 5px 8px;
+    border-radius: 5px;
+    letter-spacing: 3%;
+}
+
+.post button, .aboutbutton {
+    color: #396df2;
+    letter-spacing: 3%;
+    text-align: center;
+    background-color: white;
+    padding: 6px;
+    border-radius: 6px;
+    border-color: #396df2;
+    font-weight: 800;
+
+}
+
+.post button:hover, .aboutbutton:hover {
+    border: none;
+    color: white;
+    background-color:#396df2;
+    cursor: pointer;
+}
+
+.about {
+    background-color: #fff;
+    width: 330px;
+    padding: 30px;
+}
+
+.about > * {
+    margin: 0;
+}
+
+.skillset li {
+    display: flex;
+    justify-content:  space-between;
+    width: 100%;
+    padding: 13px;
+  }
+
+.lang {
+    background-color: #f7f7f9;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
