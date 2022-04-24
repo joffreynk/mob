@@ -2,6 +2,7 @@
   display: grid;
   width: 330px;
   gap: 50px;
+  grid-template-columns: auto;
 }
 
 .post {
@@ -93,4 +94,9 @@
   background-color: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 4px;
+}
+
+.languageskills {
+  flex-direction: column;
+  width: 100%;
 }
