@@ -95,3 +95,8 @@
   border-radius: 8px;
   margin-bottom: 4px;
 }
+
+.languageskills {
+  flex-direction: column;
+  width: 100%;
+}
